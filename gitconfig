@@ -11,10 +11,14 @@
 [push]
 	default = simple
 [alias]
-	co = checkouti
+	co = checkout
 	ci = commit
-	st = status
+	st = status -s
 	br = branch
+	cl = clone
+	diff = diff --word-diff
+	dc = diff --cached
+	cp = cherry-pick
 	type = cat-file -t
 	dump = cat-file -p
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
