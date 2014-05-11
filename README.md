@@ -1,3 +1,8 @@
+## What's inside?
+
+My `.bash_profile`, `.vimrc` and `.gitignore` files.  
+[Fork it] (https://github.com/adityatrivedi/dotfiles/fork), remove what you don't use, and add what you do use.
+
 ## Installation
 
 Clone the repository into '.dotfiles' directory:
