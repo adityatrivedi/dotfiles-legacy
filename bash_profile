@@ -10,9 +10,6 @@ export PS1='\[\e[0;31m\][\u]\[\e[0m\] \[\e[0;33m\]\W \$ \[\e[0m\]'
 # Enable coloring in terminal
 export CLICOLOR=1
 
-# Use MacVim as default to edit files
-export EDITOR='mvim'
-
 # Configuration to run JDK 1.7
 export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
