@@ -20,4 +20,4 @@ Run the setup script:
 
 ## License
 
-[MIT](./LICENSE).
+[MIT](http://opensource.org/licenses/MIT).
