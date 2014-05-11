@@ -1,0 +1,20 @@
+[user]
+	name = Aditya Trivedi
+	email = adityatriv@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.gitignore_global
+[filter "media"]
+	clean = git-media-clean %f
+    smudge = git-media-smudge %f
+[push]
+	default = simple
+[alias]
+	co = checkouti
+	ci = commit
+	st = status
+	br = branch
+	type = cat-file -t
+	dump = cat-file -p
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
