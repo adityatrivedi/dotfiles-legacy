@@ -11,6 +11,7 @@
 [push]
 	default = simple
 [alias]
+    ai = add --interactive
 	co = checkout
 	ci = commit
 	st = status -s
