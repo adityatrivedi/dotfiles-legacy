@@ -25,6 +25,12 @@ export CLICOLOR=1
 # Use MacVim as default to edit files
 export EDITOR='mvim'
 
+# Create and change into the newly created directory in one step
+mkcd() {
+    mkdir -p "$*"
+    cd "$*"
+}
+
 # Configuration to run JDK 1.7
 export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
