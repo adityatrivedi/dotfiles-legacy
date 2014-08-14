@@ -24,3 +24,6 @@ DerivedData
 
 # Espresso
 *.espressostorage
+
+# Sass
+.sass-cache/
