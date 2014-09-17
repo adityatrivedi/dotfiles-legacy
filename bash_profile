@@ -4,6 +4,9 @@
 # Enable colourized output for listing directory contents, append '/' to directories, and extra symbols after various filetypes for differentiation
 alias ls='ls -GFah'
 
+# Alias for python 3
+alias python=python3
+
 # Make prompt git aware
 function get_git_branch {
 	git branch | awk '/^\*/ { print $2 }'
@@ -35,3 +38,11 @@ mkcd() {
 export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
 export PATH=$JAVA_HOME/bin:$PATH
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
