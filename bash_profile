@@ -5,7 +5,7 @@
 alias ls='ls -GFah'
 
 # Alias for python 3
-alias python=python3
+# alias python=python3
 
 # Make prompt git aware
 function get_git_branch {
@@ -41,8 +41,10 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
-export PATH
+# PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+# export PATH
+
+export PATH=/usr/local/bin:$PATH
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
