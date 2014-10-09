@@ -64,3 +64,5 @@ set incsearch                   " ...dynamically as they are typed
 set ignorecase                  " Ignore case when searching...
 set smartcase                   " ...except when at least one uppercase letter is included
 
+nnoremap <silent> <CR> :nohlsearch<CR>
+
