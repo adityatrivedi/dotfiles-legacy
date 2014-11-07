@@ -22,7 +22,7 @@ Plugin 'altercation/vim-colors-solarized'
 call vundle#end()            " required
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 
-set background=dark
+set background=light
 
 "" Syntax
 syntax enable                   " Enable syntax highlighting
