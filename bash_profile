@@ -17,7 +17,7 @@ function get_git_prompt {
 }
 
 # Customize prompt to show the path, prompt character in red, and git branch in yellow
-export PS1='\[\e[0;31m\]\W\[\e[0m\] \[\e[0;33m\]$(get_git_prompt)\$\[\e[0m\] '
+export PS1='\[\e[0;31m\]\W\[\e[0m\] \[\e[0;33m\]$(get_git_prompt)卐\[\e[0m\] '
 
 # Enable coloring in terminal
 export CLICOLOR=1
