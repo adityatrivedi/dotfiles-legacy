@@ -15,8 +15,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-commentary'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'mhinz/vim-signify'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -24,28 +26,28 @@ filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 
 set background=light
 
-"" Syntax
+" Syntax
 syntax enable                   " Enable syntax highlighting
 filetype plugin indent on       " Detect filetype and load indent file for specific filetype
 set showmatch                   " Highlight matching braces
 
-"" View
+" View
 set encoding=utf-8              " Set encoding to UTF-8
 set showcmd                     " Display incomplete commands
 set number                      " Show line numbers
 set ruler                       " Show the current row and column
 set linespace=4                 " Set line widths
 set scrolloff=3                 " Keep lines visible
-" set visualbell                  " Flash instead of beeping
+set visualbell                  " Flash instead of beeping
 
-"" Wrapping
+" Wrapping
 set linebreak                   " Wrap only at word boundaries
 set showbreak=↪                 " Use character to indicate wrapped lines
 set colorcolumn=+1              " Highlight the column after `textwidth`
 " Set column highlight colour to black
 highlight ColorColumn ctermbg=black guibg=black
 
-"" Whitespace
+" Whitespace
 set list                        " Show invisibles, display tabs as '▸   ', trailing spaces as '•', and eol as '¬'
 set listchars=tab:▸\ ,trail:•,eol:¬
 set tabstop=2                   " Set literal tab width and display
@@ -58,11 +60,10 @@ set smartindent               " Automatically indent lines after opening braces
 set cindent                   " Enable indenting for C-style source code (including C++ and Java)
 set backspace=indent,eol,start  " Backspace through everything in insert mode
 
-"" Searching
+" Searching
 set hlsearch                    " Highlight search terms...
 set incsearch                   " ...dynamically as they are typed
 set ignorecase                  " Ignore case when searching...
 set smartcase                   " ...except when at least one uppercase letter is included
 
 nnoremap <silent> <CR> :nohlsearch<CR>
-
