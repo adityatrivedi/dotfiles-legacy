@@ -1,3 +1,5 @@
+#Unsupported. Please refer to the [new](https://github.com/adityatrivedi/dotfiles) repo.
+
 ## What's inside?
 
 My `.bash_profile`, `.vimrc`, `.gitconfig` and `.gitignore` files.  
